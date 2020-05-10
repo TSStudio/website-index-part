@@ -50,15 +50,16 @@ body{
     padding:10px;
 }
 *{
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Courier New','微软雅黑','黑体', Courier, monospace;
 }
 h2 a{
     cursor: pointer;
     color:#FFFFFF;
     text-decoration: none;
+    background-color: rgba(255, 255, 255, .2);
 }
 h2 a:hover{
-    background-color: rgba(0,0,0,.8);
+    background-color: rgba(100,100,100,.8);
 }
 .console{
     display: none;
@@ -93,4 +94,37 @@ h2 a:hover{
 .beian{
     color:#000000;
     text-decoration: none;
+}
+.fl-box{
+    color:white;
+    width:95%;
+    font-family: '黑体';
+    background-color: rgba(0, 0, 0, 0.2);
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.flsubbox{
+    margin-left: 30px;
+    width:200px;
+    font-size: 1.3em;
+    font-family: '黑体';
+    font-weight: lighter;
+    padding:10px;
+    display: inline-block;
+}
+.flsuburl{
+    font-size: 0.7em;
+}
+.fl-troy{
+    background-color: rgb(63, 122, 151);
+}
+.fl-hehejun{
+    background-color: rgb(196, 43, 76);
+}
+.fl-lh{
+    width:250px;
+    background-color: rgb(110, 99, 12);
+}
+.g2{
+    color:white;
 }
